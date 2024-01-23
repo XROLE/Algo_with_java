@@ -1,3 +1,4 @@
+package BestScore;
 import java.util.Arrays;
 
 public class BestScore {
