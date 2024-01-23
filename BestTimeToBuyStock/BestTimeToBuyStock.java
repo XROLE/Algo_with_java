@@ -1,3 +1,4 @@
+package BestTimeToBuyStock;
 
 public class BestTimeToBuyStock {
     public static void main(String[] args) {
@@ -16,8 +17,6 @@ public class BestTimeToBuyStock {
         for(int i = 0; i < arr.length; i++){
             for(int j = i + 1; j < arr.length; j++){
                 if(arr[j] - arr[i] > maximumProfit){
-                    // System.out.println(arr[j]);
-                    // System.out.println(arr[i]);
                     maximumProfit = arr[j] - arr[i];
                     
                 }
