@@ -59,10 +59,10 @@ public class SinglyLinkedList {
             Node tempNode = head;
 
             for(int i = 0; i < size; i++){
-                System.out.println(tempNode.value);
+                System.out.print(tempNode.value);
 
                 if(i != size - 1){
-                    System.out.println(" -> ");
+                    System.out.print(" -> ");
                 }
 
                 tempNode = tempNode.next;
@@ -88,5 +88,45 @@ public class SinglyLinkedList {
         }
         System.out.println("Node not found ");
         return false;
+    }
+
+    public void deletionOfNode(int location){
+        if(head == null){
+            System.out.println("The SLL does not exist");
+            return;
+        } else if (location == 0){
+            head = head.next;
+            size--;
+
+            if(size == 0){
+                tail = null;
+            }
+        } else if (location >= size){
+            Node tempNode = head;
+
+            for(int i = 0; i < size - 1; i++){
+                tempNode = tempNode.next;
+            }
+
+            if(tempNode == head){
+                tail = head = null;
+                size--;
+                return;
+
+            }
+
+            tempNode.next = null;
+            tail = tempNode;
+            size--;
+        } else {
+            Node tempNode = head;
+
+            for(int i = 0; i < location - 1; i++){
+                tempNode = tempNode.next;
+            }
+
+            tempNode.next = tempNode.next.next;
+            size--;
+        }
     }
 }
