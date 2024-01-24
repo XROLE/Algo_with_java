@@ -13,6 +13,8 @@ public class Main {
         sLL.traverseSinglyLinkedList();
         // sLL.searchNode(79);
         sLL.deletionOfNode(9);
+
+        sLL.deleteSLL();
         
         sLL.traverseSinglyLinkedList();
         // System.out.println(sLL.head.value);
