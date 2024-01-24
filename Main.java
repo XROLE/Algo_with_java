@@ -17,13 +17,16 @@ public class Main {
         // sLL.deleteSLL();
         // sLL.traverseSinglyLinkedList();
         // System.out.println(sLL.head.value);
-        
+
 
         // CIRCULAR SINGLY LINKED LIST ==================================================
         CircularSinglyLinkedList csll = new CircularSinglyLinkedList();
         csll.createCircularSinglyLinkedList(5);
+        csll.insertCSLL(4, 0);
+        csll.insertCSLL(4, 1);
+        csll.insertCSLL(4, 8);
         System.out.println(csll.head.value);
         System.out.println(csll.head.next.value);
-        System.out.println(csll.head.next.next.value);
+
     }
 }
