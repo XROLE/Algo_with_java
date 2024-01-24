@@ -22,11 +22,11 @@ public class Main {
         // CIRCULAR SINGLY LINKED LIST ==================================================
         CircularSinglyLinkedList csll = new CircularSinglyLinkedList();
         csll.createCircularSinglyLinkedList(5);
-        csll.insertCSLL(4, 0);
         csll.insertCSLL(4, 1);
-        csll.insertCSLL(4, 8);
-        System.out.println(csll.head.value);
-        System.out.println(csll.head.next.value);
+        csll.insertCSLL(7, 2);
+        csll.insertCSLL(9, 8);
+
+csll.traverseCSLL();
 
     }
 }
