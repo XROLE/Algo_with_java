@@ -25,11 +25,13 @@ public class Main {
         csll.insertCSLL(4, 1);
         csll.insertCSLL(7, 2);
         csll.insertCSLL(9, 8);
+        // csll.searchNode(92);
 
         csll.traverseCSLL();
         csll.deletionOfNode(1);
         csll.traverseCSLL();
-        // csll.searchNode(92);
+        csll.deleteCSLL();
+        csll.traverseCSLL();
 
     }
 }
