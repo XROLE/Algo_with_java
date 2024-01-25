@@ -1,4 +1,4 @@
-package MiddleFunction;
+package Algorithms.MiddleFunction;
 import java.util.Arrays;
 
 public class MiddleFunction {

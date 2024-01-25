@@ -1,4 +1,4 @@
-package BestScore;
+package Algorithms.BestScore;
 import java.util.Arrays;
 
 public class BestScore {

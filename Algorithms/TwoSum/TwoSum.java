@@ -1,4 +1,4 @@
-package TwoSum;
+package Algorithms.TwoSum;
 import java.util.Arrays;
 
 public class TwoSum {

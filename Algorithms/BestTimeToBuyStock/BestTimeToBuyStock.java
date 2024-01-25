@@ -1,4 +1,4 @@
-package BestTimeToBuyStock;
+package Algorithms.BestTimeToBuyStock;
 
 public class BestTimeToBuyStock {
     public static void main(String[] args) {

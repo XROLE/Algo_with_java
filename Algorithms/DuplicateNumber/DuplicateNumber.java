@@ -1,4 +1,4 @@
-package DuplicateNumber;
+package Algorithms.DuplicateNumber;
 import java.util.Arrays;
 import java.util.HashSet;
 

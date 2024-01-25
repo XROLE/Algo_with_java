@@ -1,4 +1,5 @@
 import CircularSinglyLinkedList.CircularSinglyLinkedList;
+import DoublyLinkedList.DoublyLinkedList;
 import SinglyLinkedList.SinglyLinkedList;
 
 public class Main {
@@ -20,18 +21,23 @@ public class Main {
 
         // CIRCULAR SINGLY LINKED LIST
         // ==================================================
-        CircularSinglyLinkedList csll = new CircularSinglyLinkedList();
-        csll.createCircularSinglyLinkedList(5);
-        csll.insertCSLL(4, 1);
-        csll.insertCSLL(7, 2);
-        csll.insertCSLL(9, 8);
+        // CircularSinglyLinkedList csll = new CircularSinglyLinkedList();
+        // csll.createCircularSinglyLinkedList(5);
+        // csll.insertCSLL(4, 1);
+        // csll.insertCSLL(7, 2);
+        // csll.insertCSLL(9, 8);
         // csll.searchNode(92);
+        // csll.traverseCSLL();
+        // csll.deletionOfNode(1);
+        // csll.traverseCSLL();
+        // csll.deleteCSLL();
+        // csll.traverseCSLL();
 
-        csll.traverseCSLL();
-        csll.deletionOfNode(1);
-        csll.traverseCSLL();
-        csll.deleteCSLL();
-        csll.traverseCSLL();
+        // DOUBLY LINKED LIST
+        DoublyLinkedList dll = new DoublyLinkedList();
+        dll.createDoublyLinkedList(6);
+
+        System.out.println(dll.head.value);
 
     }
 }
