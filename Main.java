@@ -27,7 +27,9 @@ public class Main {
         csll.insertCSLL(9, 8);
 
         csll.traverseCSLL();
-        csll.searchNode(92);
+        csll.deletionOfNode(1);
+        csll.traverseCSLL();
+        // csll.searchNode(92);
 
     }
 }
