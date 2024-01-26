@@ -12,6 +12,15 @@ public class Main {
         newStack.push(3);
         newStack.push(4);
 
+        int res1 = newStack.pop();
+
+        System.out.println(res1);
+
+        int newPeak = newStack.peak();
+        System.out.println("Peak value " + newPeak);
+        newStack.deleteStack();
+
+
 
         // DOUBLY LINKED LIST =============================================================================
         // DoublyLinkedList dll = new DoublyLinkedList();

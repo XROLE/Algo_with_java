@@ -34,4 +34,29 @@ public class Stack {
             System.out.println("The value is successfuly inserted");
         }
     }
+
+    public int pop(){
+        if(isEmpty()){
+            System.out.println("This stack is empty");
+            return -1;
+        } else {
+            int topStack = arr[topOfStack];
+            topOfStack--;
+            return topStack;
+        }
+    }
+
+    public int peak(){
+        if(isEmpty()){
+            System.out.println("The stack is empty");
+            return -1;
+        } else {
+            return arr[topOfStack];
+        }
+    }
+
+    public void deleteStack(){
+        arr = null;
+        System.out.println("The stack is successfuly deleted ");
+    }
 }
